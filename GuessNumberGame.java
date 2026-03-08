@@ -14,10 +14,15 @@ public class  GuessNumberGame {
 
      // Scanner logic
       Scanner scanner = new Scanner(System.in);
+      
 
      public static void main(String[] args) {
         System.out.println("Welcome to Number  Guessing Game!");
         System.out.println("Guess a number between 1 and 100");
-        System.out.println("Enter your guess number: " );
+        
+        int userGuess = scanner.nextInt();
+        System.out.println("Enter your guess number: " + userGuess);
+
+        scanner.close();
      }
 }
