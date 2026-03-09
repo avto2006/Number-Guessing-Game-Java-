@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class  GuessNumberGame {
 
 
-     // Random number logic
+
    
 
 
@@ -23,7 +23,7 @@ public class  GuessNumberGame {
         System.out.println("Welcome to Number  Guessing Game!");
         System.out.println("Guess a number between 1 and 100");
         
-         // Scanner logic
+   
         Scanner scanner = new Scanner(System.in);
         
         int userGuess = 0;
