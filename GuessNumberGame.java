@@ -29,13 +29,13 @@ public class  GuessNumberGame {
         int userGuess = 0;
 
         while (userGuess != randomNumber) {
-            System.out.println("Enter your guess: " + userGuess);
+            System.out.println("Enter your guess: ");
             userGuess = scanner.nextInt();
 
             if (userGuess < randomNumber) {
-                System.out.println("Too low");
+                System.out.println("Too low!");
             } else if(userGuess > randomNumber) {
-                System.out.println("Too high");
+                System.out.println("Too high!");
             } else {
                 System.out.println("Correct! You guessed the number!");
             }
