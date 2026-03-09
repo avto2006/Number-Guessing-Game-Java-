@@ -29,7 +29,7 @@ public class  GuessNumberGame {
         int userGuess = 0;
 
         while (userGuess != randomNumber) {
-            System.out.println("Enter your guess: ");
+            System.out.print("Enter your guess: ");
             userGuess = scanner.nextInt();
 
             if (userGuess < randomNumber) {
